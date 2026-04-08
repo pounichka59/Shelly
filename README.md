@@ -4,7 +4,7 @@
 
 # Scripts pour modules Shelly
 
-Vous trouvez ici un exemple de script réalisé par mes soins, adapté à l'utilisation de modules Shelly. *Profitez bien car personne d'autre ici ne propose celà !*  (ni le constructeur sur son site officiel).  
+Vous trouvez ici un exemple de script réalisé par mes soins, adapté à l'utilisation de modules Shelly.  **Profitez bien car personne d'autre ici ne propose celà !**  *(ni le constructeur sur son site officiel).*
 
 **avantage:** possibilité de programmer des interractions entre différents éléments (capteurs, luminaires, télécommandes ...), de personnaliser différents scénarios ...
 
