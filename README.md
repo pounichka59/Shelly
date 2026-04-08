@@ -1,10 +1,3 @@
-<p align="center">
-  <a href="https://prestazur.fr">
-    <img src="README/shelly_explore.jpg" width="800" />
-  </a>
-</p>
-
----
 
 [![Mon portfolio](README/shelly_explore.jpg)](https://www.shelly.com/fr)
 
