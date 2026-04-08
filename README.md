@@ -28,7 +28,7 @@ Il est à noter que la mise en place et l'activation de scripts sur modules Shel
 Contrairement à la grande majorité des produits concurrents:
 
 - Fonctionne sans accès Internet.  
-- Interactions autonomes entre les modules.
+- Interactions entre les modules, chacun autonome.
 - (liste à compléter !)...
 
 ---
