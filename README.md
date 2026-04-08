@@ -20,6 +20,8 @@ Je note plusieurs avantages remarquables sur les produits de ce fabricant, par r
 - Interface d’utilisation accessible à tous, réellement bien pensée, organisée et présentée (très très rare).  
   Un grand merci au graphiste pour son travail exceptionnel, qui offre un rendu visuel parfait.
 
+**Dans tous les cas:** Par l'utilisation d'un simple sript (voir mes exemples) vous avez la possibilité de mettre en place des scénarios très sympa et intéressants, par exemple conditionner l'alimentation d'un radiateur face à une porte ou fenetre ouverte juste à coté, de déclencher l'éclairage (éventuellement temposidée ainsi que spécialement tamisée) d'une terrasse  ou autre zone à l'ouverture d'une porte ou en franchissant un seuil, (donc avec un petit detecteur de mouvement shelly, envoyant une simple impulsion bluetooth) et seulement s'il y a une certaine obscurité, etc..... 
+
 ---
 
 ## 🔧 Un module Shelly
@@ -46,6 +48,7 @@ Avantages d’une gestion des scénarios sans cloud (par rapport à de nombreux 
 
 - Fonctionne sans accès Internet.  
 - Interactions autonomes entre les modules.
+- (à compléter !)...
 
 ---
 
@@ -58,4 +61,4 @@ Des études de conception peuvent être réalisées sur demande, via le formulai
 
 ### 🔍 À noter
 
-- **Cloud** = utilisation obligatoire des serveurs privés Shelly, liée à Internet + abonnement actif.
+- **Cloud** (notion) = utilisation obligatoire des serveurs privés Shelly, liée à Internet + abonnement actif.
