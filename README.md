@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://prestazur.fr">
-    <img src="https://raw.githubusercontent.com/pounichka59/Shelly/main/shelly_explore.jpg" width="800" />
+   <img src="README/shelly_explore.jpg" width="800" />
   </a>
 </p>
 
