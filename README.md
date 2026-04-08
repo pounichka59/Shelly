@@ -9,8 +9,9 @@
 # 📌 Scripts modules Shelly
 
 Fonctionne sans internet,
+
 Fonctionne sans réseau,
-Fonctionne sanzs l'application obligatoire
+
 même pour répondre à une commande (technologie bluetooth ou zigbee) ou pour orchestrer et automatiser des actions et scénarios.
 
 inconvénient d'utilisation et paramétrage des scrénarios sans cloud (interractions entre les modules):
@@ -22,7 +23,6 @@ inconvénient d'utilisation et paramétrage des scrénarios sans cloud (interrac
 
 avantages d'une gestion des scrénarios sans cloud (avantage par rapport aux produits concurents):
 - Fonctionne sans accès internet
-- Fonctionne sans l'application obligatoir
 - interractions autonomes entre les modules
 
 Etudes de conception sur demande via mon formulaire de contact [cette page](https://prestazur.fr/contact) ou [ce lien](https://prestazur.fr/contact).
