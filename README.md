@@ -16,7 +16,7 @@ xxxx xxxx xx xxx xxxx xx xxxx...
 - xx xxxx xx xxxx, xxxx xx xxxx.  
 - xxxx xx xxxx xx xxxx, xxxx xx xxxx.
 
-Vous pouvez consulter [cette page](https://prestazur.fr/lien-exemple-1) ou [ce lien](https://prestazur.fr/lien-exemple-2) pour plus d’informations.
+Vous pouvez consulter [cette page](https://prestazur.fr/contact) ou [ce lien](https://prestazur.fr/contact) pour plus d’informations.
 
 ---
 
@@ -30,7 +30,4 @@ xxxx xx xxxx xx xxxx, xxxx xx xxxx...
 - xx xxxx xx xxxx.  
 - xxxx xx xxxx xx xxxx.
 
----
-
-Vous pouvez aussi [visiter mon site principal](https://prestazur.fr) pour découvrir davantage de projets.  
 ---
