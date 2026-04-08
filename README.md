@@ -1,7 +1,6 @@
 
 [![Mon portfolio](README/shelly_explore.jpg)](https://www.shelly.com/fr)
 
----
 
 # Scripts pour modules Shelly
 
