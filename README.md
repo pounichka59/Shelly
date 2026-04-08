@@ -18,7 +18,7 @@ exemple d'utilisation: une porte ou une fenetre ouverte juste à coté d'un radi
 - Est capable de fonctionner sans Internet.  
 - Est capable de fonctionner sans réseau.  
 
-Une télécommande bouton ou un capteur ne dépend plus d'internet ni du wifi pour fonctionner.
+Une télécommande bouton ou un capteur ne dépend plus d'internet ni du wifi pour fonctionner (intéressant dans un garage par exemple).
 
 La mise en place et l'activation des scripts sur modules Shelly ne s'adresse pas à un utilisateur “classique”, mais de profil technique, initié et équipé...   donc pour une famille ce n'est pas nécessairement idéal...
 
