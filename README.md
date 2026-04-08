@@ -8,11 +8,16 @@
 
 # 📌 Scripts modules Shelly
 
-Fonctionne sans internet,
+⁫Vous trouvez ici des exemples de script pour modules Shelly, conçus par mes soins pour mon usage personnel, introuvables ici sur GitHub (même en anglais) et encore moins sur le site du constructeur qui vend ses modules sans instructions ni notice technique (sauf strict indications minimum pour fonctionnement élémentaire en bref).
 
-Fonctionne sans réseau,
+Je note différents avantages exceptionels par rapport à tout autre produit sur le marché:
+- interface d'utilisation accessible à tous et bien conçue (très très rare), notamment merci au graphiste pour son travail exceptionnel offrant un rendu parfait.
 
-même pour répondre à une commande (technologie bluetooth ou zigbee) ou pour orchestrer et automatiser des actions et scénarios.
+Un module Shelly:
+- Fonctionne sans internet,
+- Fonctionne sans réseau,
+
+...même pour répondre à une commande (technologie bluetooth ou zigbee) ou pour orchestrer et automatiser des actions et scénarios...
 
 inconvénient d'utilisation et paramétrage des scrénarios sans cloud (interractions entre les modules):
 (sachant que cloud = internet + utilisation obligatoire des serveurs privés shelly + abonnement actif)
