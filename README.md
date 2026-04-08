@@ -33,7 +33,8 @@ Contrairement à la grande majorité des produits concurrents:
 
 ---
 
-## Études de conception
+## Études de conception personnalisées
 
-Des études de conception personnalisées peuvent être réalisées sur demande, via le formulaire de contact disponible sur mon site :  
+Des études de conception peuvent être réalisées sur demande, via le formulaire de contact disponible sur mon site :  
 [formulaire de contact](https://prestazur.fr/contact).
+
