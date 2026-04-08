@@ -19,8 +19,8 @@ Un module Shelly:
 
 ...même pour répondre à une commande (technologie bluetooth ou zigbee) ou pour orchestrer et automatiser des actions et scénarios...
 
-inconvénient d'utilisation et paramétrage des scrénarios sans cloud (interractions entre les modules):
-(sachant que cloud = internet + utilisation obligatoire des serveurs privés shelly + abonnement actif)
+La création et l'utilisation de scripts JS dans ces modules apporte des avantages mais aussi des inconvénients pour l'utilisateur classque, tant pour profiter du fonctionnement sous script que pour le paramétrage des scénarios sans cloud (utilité = interractions entre les modules):
+
 - paramétrage complexe et non intuitif, réservé à utilisateur de profil technique, initié et équipé.
 (codé en js sous nombreuses contraintes et limites) 
 - contraintes d'accessibilité (ip fixe nécessaire pour chaque module).
@@ -35,6 +35,8 @@ Etudes de conception sur demande via mon formulaire de contact [cette page](http
 ---
 
 ### 🔍 titre 2   (test paragraphe)
+
+A noter: cloud = internet + utilisation obligatoire des serveurs privés shelly + abonnement actif
 
 xxxx xx xxxx xx xxxx...  
 xxx xxxx xx xxxx, xxxx xx xxxx...  
