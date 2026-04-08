@@ -6,7 +6,7 @@
 
 ---
 
-# 📌 Scripts pour modules Shelly
+# Scripts pour modules Shelly
 
 Vous trouvez ici des exemples de scripts pour les modules Shelly, désormais en partage et conçus par mes soins pour mon usage personnel.  
 Ces scripts sont introuvables ici sur GitHub (même en anglais) et encore moins sur le site du constructeur, qui vend ses modules sans instructions ni notice technique détaillée.  
@@ -24,7 +24,7 @@ Je note plusieurs avantages remarquables sur les produits de ce fabricant, par r
 
 ---
 
-## 🔧 Un module Shelly
+## Un module Shelly
 
 Un module Shelly :
 
@@ -42,7 +42,7 @@ La création et l’utilisation de scripts JavaScript dans ces modules apporte d
 
 ---
 
-## 🌐 Avantages d’une gestion sans cloud
+## Avantages d’une gestion sans cloud
 
 Avantages d’une gestion des scénarios sans cloud (par rapport à de nombreux produits concurrents) :
 
@@ -52,13 +52,13 @@ Avantages d’une gestion des scénarios sans cloud (par rapport à de nombreux 
 
 ---
 
-## 📝 Études de conception
+## Études de conception
 
 Des études de conception peuvent être réalisées sur demande, via le formulaire de contact disponible sur mon site :  
 [formulaire de contact](https://prestazur.fr/contact).
 
 ---
 
-### 🔍 À noter
+### À noter
 
 - **Cloud** (notion) = utilisation obligatoire des serveurs privés Shelly, liée à Internet + abonnement actif.
