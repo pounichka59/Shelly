@@ -6,11 +6,7 @@
 
 ---
 
-[![Mon portfolio](https://raw.githubusercontent.com/pounichka59/Shelly/main/README/shelly_explore.jpg)](https://prestazur.fr)
-
----
-
-[![Mon portfolio](README/shelly_explore.jpg)](https://prestazur.fr)
+[![Mon portfolio](README/shelly_explore.jpg)](https://www.shelly.com/fr)
 
 ---
 
