@@ -6,7 +6,7 @@
 
 ---
 
-# 📌 Scripts modules Shelly
+# 📌 Scripts pour modules Shelly
 
 ⁫Vous trouvez ici des exemples de script pour modules Shelly, conçus par mes soins pour mon usage personnel, introuvables ici sur GitHub (même en anglais) et encore moins sur le site du constructeur qui vend ses modules sans instructions ni notice technique (sauf strict indications minimum pour fonctionnement élémentaire en bref).
 
