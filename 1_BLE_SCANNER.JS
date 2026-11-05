@@ -1,5 +1,5 @@
-//		http://192.168.1.x
-//		C:\Users\fox\Desktop\shelly\_script\_PROD_\xxx.js				M O D E L E
+//		http://192.168.1.x 
+//				M O D E L E    A    D U P L I Q U E R
 
  //////////////////////////////////////////////   xxx.js  ////////////////////////////////////////////////
  //																										//
