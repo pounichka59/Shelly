@@ -6,14 +6,14 @@
  //									Script automatisation sans internet (no cloud)	/version 2			//
  //																										//
  //																										//
- //		process perpétuel > Scanner BLE						Motion - Door - Button - H&T			 	//
+ //		process perpÃ©tuel > Scanner BLE						Motion - Door - Button - H&T			 	//
  //																										//
  //		Liste Dispositifs SHELLY Bluetooth : ligne 278												 	//
  //																										//
  ///////////////////////////// www. prestazur.fr ///////////////////// - Auteur: DANGEL Sylvain - ////////
 
 
-	//	REQUETE EXEMPLE
+	//	REQUETE EXEMPLE:
 	// ----------------------------------------------------------------------------------------------------
 	//	
 	//		Shelly.call("HTTP.GET", {url: "http://192.168.1.24/sensor/0"}, function (res, error_code, error_msg, ud) {
@@ -38,7 +38,7 @@ let On_Door_Detect = false;
 let On_Open;
 let On_Clic;
 
-// Durées			// 1H: 3600 sec		30MIN: 1800 sec
+// DurÃ©es			// 1H: 3600 sec		30MIN: 1800 sec
 // =======
 let DUREE = {
 	sec_5	:5,
@@ -49,7 +49,7 @@ let DUREE = {
 	h_2		:7200,
 };
 
-// Selection durée:
+// Selection durÃ©e:
 let Duree_Action = DUREE.sec_5;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -71,7 +71,7 @@ function processHttpResponse(result, error_code, error) {
 	if (error_code != 0) {
 		print("URL action: error");
 	} else {
-		// print("confirmation URL excutée");
+		// print("confirmation URL excutÃ©e");
 	}
 }
 function Do_Action(a,b,c,d,e) {
@@ -266,7 +266,7 @@ function ButtonPress(Nb_Clic, Mac_Btn) {
 //									P A R A M E T R E S											//
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Paramètre durée
+// ParamÃ¨tre durÃ©e
 // ================
 let Delai_Stop_1			= "20";		//	(secondes)
 
@@ -277,25 +277,25 @@ let Delai_Stop_1			= "20";		//	(secondes)
 
 let Btn_Black_1		=	"90:ab:96:3c:95:2f";	//	  Demo
 let Btn_Black_2		=	"b4:35:22:f5:15:36";	//	  Demo
-let Btn_T_Black_1	=	"7c:c6:b6:71:eb:4d";	//  bip porte clé Madame
+let Btn_T_Black_1	=	"7c:c6:b6:71:eb:4d";	//  bip porte clÃ© Madame
 let Btn_Red			=	"90:ab:96:3d:60:e2";	//	radiateur chambre
 let Btn_White_1		=	"5c:c7:c1:f6:40:3b";	//	(eau-chaude)
 let Btn_White_2		=	"28:76:81:f9:69:81";	//	(SDB)
 let Btn_White_3		=	"b0:c7:de:be:2a:8a";	//	  Demo
 let Btn_White_4		=	"7c:c6:b6:64:eb:99";	//	  Demo 
-let Btn_T_White_1	=	"7c:c6:b6:72:16:c5";	//  bip porte clé Monsieur
+let Btn_T_White_1	=	"7c:c6:b6:72:16:c5";	//  bip porte clÃ© Monsieur
 let Door_1			=	"60:ef:ab:42:ef:f8";	//	Terrasse
 let Door_2			=	"8c:6f:b9:0b:56:33";	//	penderie couloir
 let Door_3			=	"60:ef:ab:44:24:a3";	//	ouverture frigo
 let Door_4			=	"b0:c7:de:40:4f:4b";	//	tiroir couloir
 let Door_5			=	"b0:c7:de:3e:7c:28";	//	  Demo 1
 let Door_6			=	"e8:e0:7e:cb:bd:52";	//	  Demo 2  POUR Terrasse
-let Door_7			=	"b0:c7:de:06:0c:80";	//	Porte d'entrée
-let Motion_1		=	"3c:2e:f5:a8:c9:71";	//	Porte d'entrée
+let Door_7			=	"b0:c7:de:06:0c:80";	//	Porte d'entrÃ©e
+let Motion_1		=	"3c:2e:f5:a8:c9:71";	//	Porte d'entrÃ©e
 let Motion_2		=	"38:39:8f:70:f3:ff";	//	  Demo
 
 
-//		Dispositifs concernés par ce script  (décommenter pour activer)
+//		Dispositifs concernÃ©s par ce script  (dÃ©commenter pour activer)
 
 let CONFIG = {
 	debug: true,
@@ -326,7 +326,7 @@ let CONFIG = {
 	//  Concerne: MOTION //
 	//  ===================
 	motionHandler: function (motion, eventData) {
-		// se produit seulement au changement entre les états : move / no-move
+		// se produit seulement au changement entre les Ã©tats : move / no-move
 
 		On_Motion_Detect = true;
 		On_Mov = motion;		//	(Etat du mouvement)
@@ -338,13 +338,13 @@ let CONFIG = {
 	},
 
 
-	//  Concerne: tout matériel gérant la luminosité //
+	//  Concerne: tout matÃ©riel gÃ©rant la luminositÃ© //
 	//  ===============================================
 	//  
 	illuminanceHandler: function (illuminance, eventData) {		
-		// --------------------------------------------------- Luminosité	
+		// --------------------------------------------------- LuminositÃ©	
 		Event_Lum = illuminance;
-		// console.log("Luminosité gérée (", Event_Lum,")");
+		// console.log("LuminositÃ© gÃ©rÃ©e (", Event_Lum,")");
 
 		// --------------------------------------------------- identification (Mac)			
 		Event_Mac = eventData.address;
@@ -362,7 +362,7 @@ let CONFIG = {
 
 
 		// Door check //
-		On_Open = eventData.window;			// Etat ouverture:  1 -> Ouvert  ,  0 -> Fermé
+		On_Open = eventData.window;			// Etat ouverture:  1 -> Ouvert  ,  0 -> FermÃ©
 		if (On_Open !== undefined) {
 			On_Door_Detect = true;
 		}
@@ -384,13 +384,13 @@ let CONFIG = {
 				// print("Door: Terrasse");
 				switch(On_Open){
 					case 1:
-						console.log("Ouverture de la terrasse (luminosité:",Event_Lum,")");
-						// allumer la lumière (action remote) 
-						//  (l'ip du dispositif cible doit être fixe, de préférence à parametrer sur le routeur)
+						console.log("Ouverture de la terrasse (luminositÃ©:",Event_Lum,")");
+						// allumer la lumiÃ¨re (action remote) 
+						//  (l'ip du dispositif cible doit Ãªtre fixe, de prÃ©fÃ©rence Ã  parametrer sur le routeur)
 						
 						if (Event_Lum <= 10) { 
 							console.log("Terrasse sombre: Allumer le lustre");
-							// allumer la lumière (action remote)
+							// allumer la lumiÃ¨re (action remote)
 							// Shelly.call("HTTP.GET", {url: "http://192.168.10.55/light/0?turn=on"}, processHttpResponse)
 							Shelly.call("HTTP.GET", {url: "http://192.168.1.55/light/0?turn=on&timer=30"}, processHttpResponse)
 						}
@@ -425,7 +425,7 @@ let CONFIG = {
 						let Is_ON = status.state;
 
 						if (Is_ON === false) {
-							// Interrupteur est sur OFF > éteindre
+							// Interrupteur est sur OFF > Ã©teindre
 							Shelly.call("Switch.Set", { id: 0, on: false });			// (build-in cmd)
 							print("inter OFF > Lustre OFF");
 						}
@@ -444,12 +444,12 @@ let CONFIG = {
 					
 					// Ouverture
 					case 1:
-						console.log("Ouverture du Frigo (luminosité:",Event_Lum,")");
-						// (ACTION: Allumer éclairage cuisine)
+						console.log("Ouverture du Frigo (luminositÃ©:",Event_Lum,")");
+						// (ACTION: Allumer Ã©clairage cuisine)
 					
 						if (Event_Lum <= 7) { 
-							console.log("Cuisine sombre: Allumer la Lumière de la cuisine");
-							// allumer la lumière (action remote)
+							console.log("Cuisine sombre: Allumer la LumiÃ¨re de la cuisine");
+							// allumer la lumiÃ¨re (action remote)
 							Shelly.call("HTTP.GET", {url: "http://192.168.1.41/relay/3?turn=on"}, processHttpResponse)
 						}
 						break;
@@ -472,11 +472,11 @@ let CONFIG = {
 						
 								// 2) IsOn = true
 								if (Is_On === true) {
-									print("interrupteur en position ON (laisser allumé)");
+									print("interrupteur en position ON (laisser allumÃ©)");
 								}
 								else {
-									print("interrupteur en position OFF: éteindre");
-									// éteindre la lumière (action remote)
+									print("interrupteur en position OFF: Ã©teindre");
+									// Ã©teindre la lumiÃ¨re (action remote)
 									Shelly.call("HTTP.GET", {url: "http://192.168.1.41/relay/3?turn=off"}, processHttpResponse)
 								}
 								}
@@ -512,7 +512,7 @@ let CONFIG = {
 						let Is_ON = status.state;
 
 						if (Is_ON === false) {
-							// Interrupteur est sur OFF > éteindre
+							// Interrupteur est sur OFF > Ã©teindre
 							Shelly.call("Switch.Set", { id: 0, on: false });			// (build-in cmd)
 							print("inter OFF > Lustre OFF");
 						}	
@@ -521,32 +521,32 @@ let CONFIG = {
 				}
 			}
 			
-			//   =========================== 7  (Porte Entrée)
+			//   =========================== 7  (Porte EntrÃ©e)
 			//   =========  DOOR 7  ========    
 			//   ===========================    
 			//
 			if (Event_Mac === Door_7) { 
-				// print("Door: Porte Entrée");
+				// print("Door: Porte EntrÃ©e");
 				switch(On_Open){
 					case 1:
-						console.log("Ouverture de la porte d'entrée (luminosité:",Event_Lum,")");
+						console.log("Ouverture de la porte d'entrÃ©e (luminositÃ©:",Event_Lum,")");
 						// (ACTION: Allumer le couloir)
 					
 						if (Event_Lum <= 15) { 
-							console.log("Entrée sombre (- de 30): Allumer la Lumière du couloir");
-							// allumer la lumière 
+							console.log("EntrÃ©e sombre (- de 30): Allumer la LumiÃ¨re du couloir");
+							// allumer la lumiÃ¨re 
 							// Shelly.call("Switch.Set", { id: 0, on: true });			// (build-in cmd)
 						}
 						break;
 						
 					case 0:
-						print("Porte Entrée: Fermeture");
+						print("Porte EntrÃ©e: Fermeture");
 						// position interrupteur ? 
 						let status = Shelly.getComponentStatus("input", 0);
 						let Is_ON = status.state;
 
 						if (Is_ON === false) {
-							// Interrupteur est sur OFF > éteindre
+							// Interrupteur est sur OFF > Ã©teindre
 							Shelly.call("Switch.Set", { id: 0, on: false });			// (build-in cmd)
 							print("inter OFF > Lustre OFF");
 						}	
@@ -571,14 +571,14 @@ let CONFIG = {
 			//   ===========================    
 			//	
 			if (Event_Mac === Motion_1) { 
-				// print("Mouvement dans l'Entrée");
+				// print("Mouvement dans l'EntrÃ©e");
 
 				switch(On_Mov){
 					case true:
-						print("Entrée: New Move");
+						print("EntrÃ©e: New Move");
 						break;
 					case false:
-						print("Entrée: No more Move");
+						print("EntrÃ©e: No more Move");
 						break;
 				}
 			}
@@ -595,15 +595,15 @@ let CONFIG = {
 	//  (pour test)
 		
 	//		if (Event_Mac === "b0:c7:de:40:4f:4b") { 
-	//			 print("Equipement détecté: Tiroir couloir");
+	//			 print("Equipement dÃ©tectÃ©: Tiroir couloir");
 	//		}
     //	
 	//		if (Event_Mac === "8c:6f:b9:0b:56:33") { 
-	//			print("Equipement détecté: penderie couloir");
+	//			print("Equipement dÃ©tectÃ©: penderie couloir");
 	//		}
 	//	
 	//		if (Event_Mac === "60:ef:ab:44:24:a3") { 
-	//			print("Equipement détecté: frigo");	
+	//			print("Equipement dÃ©tectÃ©: frigo");	
 	//		}	
 
 
@@ -899,7 +899,7 @@ function init() {
 
   //subscribe a callback to BLE scanner
   BLE.Scanner.Subscribe(BLEScanCallback);
-  console.log("Scanner démarré (Entrée)");
+  console.log("Scanner dÃ©marrÃ© (EntrÃ©e)");
 }
 
 init();
