@@ -39,3 +39,14 @@ Contrairement à la totalité des produits concurrents, à la fois:
 Je réalise sur demande tout projet d'étude de conception domotique, mon formulaire de contact est disponible sur ce lien :  
 [formulaire de contact](https://prestazur.fr/contact).
 
+---
+
+## Recherches couvertes
+
+- Notices Shelly en français
+- Scripts JavaScript pour Shelly
+- Commander un relais Shelly sans cloud
+- Utiliser Shelly en local sans serveur
+- Exemples Shelly BLE Scanner
+- Shelly Anleitungen und JavaScript-Beispiele
+- Инструкции и примеры скриптов для Shelly
